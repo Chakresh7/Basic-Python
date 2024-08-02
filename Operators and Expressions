@@ -1,0 +1,55 @@
+OPERATORS AND EXPRESSIONS:
+
+print(pow(2,2))
+print(2**2)
+# ADDITION.
+
+print(2+2)
+print(2.2+1.2)
+print(1+2.3)
+print("Chakresh " + "Kumar")
+print(True+True)
+# SUBSTARCTION.
+
+print(2-1)
+print(2.2-1.1)
+print(2.2-1)
+print(True - True)
+print(True - False)
+# MULTIPLIACTION.
+
+print(2*2)
+print(2.2*1.1)
+print(2*1.1)
+print(True * True)
+print(True * False)
+# DIVISION.
+
+print(2/1)
+print(2.2/1.2)
+print(2.34/2)
+print(True/True)
+# MODULO.
+
+print(2%1)
+print(2.2%1.2)
+print(2.34%2)
+print(True%True)
+# FLOOR DIVISION.
+
+print(2//1)
+print(2.2//1.2)
+print(2.34//2)
+print(True//True)
+# ABS.
+
+print(abs(-100))
+# ROUND.
+print(round(102.0202,2))
+# POW.
+print(pow(2,3))
+# EXPONENTIATION.
+print(2**1)
+print(2.2**1.2)
+print(2.34**2)
+print(True**True)
