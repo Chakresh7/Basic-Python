@@ -55,3 +55,47 @@ print(2**1)
 print(2.2**1.2)
 print(2.34**2)
 print(True**True)
+
+COMPARISION OPERATORS:
+
+> GREATER THAN 
+print(2>1)
+print(2.2>1.1)
+print(2.2>1)
+print("Chakresh" > "chakresh")
+print(True > False)
+
+< LESS THAN
+print(2<1)
+print(2.2<1.1)
+print(2.2<1)
+print("Chakresh" < "chakresh")
+print(True < False)
+
+== EQUAL TO
+print(2==1)
+print(2.2==1.1)
+print(2.2==1)
+print("Chakresh" == "chakresh")
+print(True == False)
+
+!= NOT EQUAL TO
+print(2!=1)
+print(2.2!=1.1)
+print(2.2!=1)
+print("Chakresh" != "chakresh")
+print(True != False)
+
+>= GREATER THAN OR EQUAL TO
+print(2>=1)
+print(2.2>=1.1)
+print(2.2>=1)
+print("Chakresh" >= "chakresh")
+print(True >= False)
+
+<= LESS THAN OR EQUAL TO
+print(2<=1)
+print(2.2<=1.1)
+print(2.2<=1)
+print("Chakresh" <= "chakresh")
+print(True <= False)
