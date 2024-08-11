@@ -1,0 +1,101 @@
+#list
+student = ['chakresh','vamsi','sathwik','koushik','sameer','yeashwant']
+
+print(student)
+print(student[0])
+print(student[:2])
+print(student[-1])
+
+student[3] = 'sai'
+
+print(student)
+
+print(student[::2])
+
+student.append('variable')
+
+print(student)
+
+student.remove('chakresh')
+
+print(student)
+
+
+print(len(student))
+
+print(student)
+print('-'*20)
+lst = [21,89,9,76,67,10,12,19]
+
+print(sum(lst))
+print(min(lst))
+print(max(lst))
+print(lst.count(21))
+print(lst.index(67))
+# print(lst.avg())
+print('_'*20)
+lst.append(20)
+print(lst)
+lst.remove(20)
+print(lst)
+lst.extend([20,20,10,90,8])
+print(lst)
+print(lst.count(20))
+print('-'*20)
+print(sorted(lst))
+
+print(sorted(lst)[::-1])
+
+student.extend(['lol','hi','how'])
+print(student)
+
+print(student.index('sai'))
+
+print(student.count('hi'))
+
+for i in student:
+    print(i)
+
+print('-'*20)
+    
+for i in range(len(student)-1,-1,-1):
+    print(student[i])
+    
+lol = [[1,2,3,4,5,6,7],[1.0,2.0,3.0,4.0,5.0],['chakri','vamsi','koushik','sathwik']]
+
+print(lol[0][0])
+print(lol[1])
+print(lol[2])
+
+
+matrix = [[1,2,3],
+          [4,5,6],
+          [7,8,9]]
+          
+print(matrix[0])
+print(matrix[1])
+print(matrix[2])
+
+
+matrix[0][0] = 10
+
+print(matrix[0])
+print('-'*30)
+for i in matrix:
+    for j in i:
+        print(j)
+print('-'*20)
+love = [1,2,3,4,5,6,7,8,9]
+s = []
+for i in love:
+    s.append(i**2)
+    
+print(s)
+
+
+
+pop = [[1,2,3],[4,5,6],[7,8,9]]
+
+print(pop)
+pop = [j for i in pop for j in i]
+print(pop)
