@@ -1,0 +1,16 @@
+def array(c):
+    try:
+        d = c[11];
+        raise IndexError("Index error")
+        return d
+    except Exception as e:
+        print(f"An Error Occured {e}")
+c = [1,2,3,4,5,6,7,8,9,10]
+try:
+    result = array(c)
+except IndexError as I:
+    print("Index out of Range Error Occured!")
+else:
+    print(f"Result : {result}")
+finally:
+    print("The code Completed Successfully")
